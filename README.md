@@ -65,11 +65,11 @@ _Icon grid template placement_
 
 ### Variations
 
-#### svg icon 
+#### SVG icon 
 
 The primary purpose of SVG icons is to define vector-based graphics in XML format. However, for icon browsers consider them as text, so the icons are anti-aliased. With inline SVGs, they are vectors with no anti-aliasing issues even at small sizes, and they look crisper on retina displays.
 
-#### png icon
+#### PNG icon
 
 A PNG file is an image saved in the Portable Network Graphic (PNG) format, commonly used to store web graphics, digital photographs, and images with transparent backgrounds. It is a raster graphic similar to a . JPG image but is compressed with lossless compression and supports transparency. The advantages of the PNG format include: Lossless compression -- doesn't lose detail and quality after image compression. Supports a large number of colors -- the format is suitable for different types of digital images, including photographs and graphics.
 
@@ -77,10 +77,10 @@ Raster formats like PNG become pixilated when resized. SVG graphics are resoluti
 
 ### Perspective
 
-Description here
+Icons should be of 2D
 
 
-### Corners
+### Roundness
 
 Description here
 
@@ -167,6 +167,13 @@ _Component design specifications_
 | `hoverBackgroundColor`   | Header background:hover      | `color-purple-100`         | #f2eafa      |
 | `backgroundColor`        | Container background         | `color-white`              | #ffffff      |
 | `focusBorderColor`       | Header outline:focus         | `color-purple-700`         | #5f249f      |
+
+### Icon Stroke
+
+| Component token          | Element                      | Core token                 | Value   |
+| -------------------------| ---------------------------- | -------------------------- | --------|
+| `iconBorderStyle`        | stroke                       | `border-style-solid`       | solid   |
+| `iconBorderThickness`    | stroke                       | `border-width-1`           | 2px     |
 
 ### Typography
 
